@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+header .container {
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+header img {
+    margin: 0 10px;
+}
+
+header #logo {
+    width: 127px;
+}
+
+.userPhoto {
+    width: 34px;
+    border-radius: 50%;
+}
+
+/*Typography*/
+p {
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.userLocation p {
+    display: inline-block;
+}
+
+.ux-layout p {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.newLine {
+    display: block;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+#username-el {
+    font-weight: bold;
+}
+
+
+/* Layout */
+
+section {
+    margin-top: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.userLocation {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.ux-layout {
+    margin: 13px;
+}
+
+
+/* IMAGES */
+.postIMG {
+    width: 100%;
+}
+
+.icon {
+    width: 27px;
+    margin-right: 7px;
+}
+
+.icon:hover {
+    opacity: 70%;
+}
